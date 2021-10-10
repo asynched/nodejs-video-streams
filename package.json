@@ -4,6 +4,8 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
+        "build": "sucrase src -d build -t imports",
+        "start": "yarn build && node build/index.js",
         "dev": "nodemon src/index.js"
     },
     "dependencies": {
