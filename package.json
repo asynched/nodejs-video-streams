@@ -9,10 +9,10 @@
         "dev": "nodemon src/index.js"
     },
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "sucrase": "^3.20.2"
     },
     "devDependencies": {
-        "nodemon": "^2.0.13",
-        "sucrase": "^3.20.2"
+        "nodemon": "^2.0.13"
     }
 }
