@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Video player</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Video stream using NodeJS</h1>
+      <!-- Plyr is really cool, lol. -->
+      <video id="player" playsinline controls>
+        <source src="http://localhost:3333/video" type="video/mp4" />
+      </video>
+    </main>
+  </body>
+  <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+  <script>
+    const player = new Plyr('#player')
+  </script>
+</html>
