@@ -2,6 +2,10 @@
 
 A simple test on streaming videos with NodeJS
 
+## Preview
+
+![Video stream preview with the video of a cat](public/thumbnails/preview.jpeg)
+
 ## Installation
 
 1. Install dependencies
